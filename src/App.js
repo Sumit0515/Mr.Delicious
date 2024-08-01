@@ -22,7 +22,7 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/Mr.Foodie" element={<Home />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/myorder" element={<MyOrder />} />
